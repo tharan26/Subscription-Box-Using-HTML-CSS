@@ -1,0 +1,43 @@
+.whole{
+    border: 2px solid black;
+    width: 1000px;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page{
+    border: 2px transparent;
+    padding: 30px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.detail{
+    border: 2px transparent;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.detail input,button,label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detail input[type=text],input[type=email],button{
+    width: 800px;
+}
+
+.detail input[type=text],input[type=email]{
+    border: 2px solid;
+    padding: 3px;
+    border-color: lightgrey;
+}
+
+button{
+    color: white;
+    background-color: lightgreen;
+    border-color: transparent;
+    border-radius: 3px;
+    padding: 2px;
+}
